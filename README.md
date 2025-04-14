@@ -10,4 +10,4 @@ This is an implementation of GPT-2 using TensorFlow and Keras, inspired by the "
 
 ## 🛠️ How to Use
 ```bash
-python gpt2_model_full.py
+python GPT2.py
