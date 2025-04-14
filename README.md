@@ -8,10 +8,6 @@ This is an implementation of GPT-2 using TensorFlow and Keras, inspired by the "
 - Positional and Token Embeddings
 - Output layer for language modeling
 
-## 🛠️ How to Use
-```bash
-python GPT2.py
-
 Model: "functional"
 _________________________________________________________________
  Layer (type)                Output Shape              Param #
@@ -24,19 +20,31 @@ Trainable params: 163,087,441 (622.13 MB)
 Non-trainable params: 0 (0.00 B)
 
 
-## 📎 Model Specs
+## 📎 Model Specifications
 
-| Feature                     | Value                     |
-|----------------------------|---------------------------|
-| **Input Sequence Length**  | 1024 tokens               |
-| **Vocabulary Size**        | 50,257 tokens             |
-| **Embedding Dimension**    | 768                       |
-| **Number of Transformer Layers** | 12                 |
-| **Attention Heads**        | 12                        |
-| **Feed Forward Dimension** | 3072                      |
-| **Dropout Rate**           | 0.1                       |
-| **Activation Function**    | GELU                      |
-| **Total Parameters**       | 163,087,441               |
-| **Trainable Parameters**   | 163,087,441               |
-| **Non-trainable Parameters** | 0                      |
+A detailed look at the architecture and parameters of the custom GPT-2 model:
+
+| 🧩 **Component**              | 📐 **Value**                |
+|------------------------------|-----------------------------|
+| 🔢 Input Sequence Length      | `1024` tokens               |
+| 🔤 Vocabulary Size            | `50,257` tokens             |
+| 🧠 Embedding Dimension        | `768`                       |
+| 🏗️ Transformer Layers         | `12`                        |
+| 🎯 Attention Heads            | `12`                        |
+| 📈 Feed-Forward Dimension     | `3072`                      |
+| 💧 Dropout Rate               | `0.1`                       |
+| ⚙️ Activation Function        | `GELU`                      |
+| 📊 Total Parameters           | `163,087,441`               |
+| 🛠️ Trainable Parameters       | `163,087,441`               |
+| 🚫 Non-trainable Parameters   | `0`                         |
+
+
+## 🛠️ How to Use
+```bash
+python GPT2.py
+
+
+
+
+
 
